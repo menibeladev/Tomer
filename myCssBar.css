@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("Pictures/pic1.jpg")  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.main {
+    margin-top: 50px;
+    background-color: rgba(255, 185, 132, 0.7);
+    border-radius: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.mainTitle {
+
+
+
+    margin-top: 50px;
+    background-color: rgba(255, 148, 3, 0.7);
+    border-radius: 100px;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+p {
+
+    text-align: center;
+
+}
+p.italic {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    text-indent: 50px;
+    letter-spacing: 3px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #002a80;
+
+
+}
+
+form {
+    text-align: center;
+}
+
+
+tr {
+    text-align: right;
+}
+
+
+ table {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     text-align: right;
+     width: 100%;
+ }
+
+td {
+    border: 1px solid rgba(50, 38, 40, 0.94);
+    text-align: right;
+    padding: 8px;
+}
+
+th{
+    border: 1px solid rgba(50, 38, 40, 0.94);
+    text-align: center;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #ddb74d;
+    text-align: right;
+}
+#sq{
+
+}
+ul#sq {
+
+}
+.gmap_canvas{
+    text-align: center;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+
+}
+
+textarea {
+    text-align: right;
+}
+
+div {
+    align-content: center;
+}
+
+div.sqe ul{
+    text-align: right;
+    padding-right: 100px;
+
+}
+div.sqe h2{
+    text-align: right;
+    padding-right: 100px;
+
+}
+
+div.form1 h1{
+    text-align: right;
+
+}
+
+div.title p{
+    text-align: right;
+
+}
+
+div.refference {
+    text-align: center;
+}
+
+#FullName {
+    text-align: right;
+}
+#guests {
+    text-align: right;
+}
+
+#location {
+    margin-left: 100px;
+}
+
+div.form1 h2{
+
+    margin-left: 100px;
+}
+
+div.picpic {
+
+    margin-right: 5px;
+    margin-left: 5px
+}
+
+div.refference img{
+    width:42px;height:42px;border:0;
+}
+
+div.picpic img{
+    width: 100%;
+}
+
+footer {
+    color: #ddb74d;
+}
+
+li{
+    line-height: 300%;
+
+}
+
