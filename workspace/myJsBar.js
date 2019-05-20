@@ -6,7 +6,11 @@ function checkTheForm() {
     var dotposition = x.lastIndexOf(".");
     var prePhone = document.getElementById("inputPre").value;
 
+    var fullNameCheck = document.getElementById("FullName").value;
+    if (fullNameCheck.length == 0 ){
+        document.getElementById("demoFullName").innerHTML = "!אנא הכנס אותיות באנגלית או בעברית בלבד";
 
+    }
 
     /*mail*/
     if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= x.length) {
